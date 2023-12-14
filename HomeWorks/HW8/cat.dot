@@ -1,0 +1,16 @@
+## Jiading Zhou ####
+digraph g {
+"Bar" [label="Bar"];
+"Bat" [label="Bat"];
+"Cab" [label="Cab"];
+"Car" [label="Car"];
+"Mat" [label="Mat"];
+"Cat" [label="Cat"];
+"Bar" -> "Bat";
+"Cab" -> "Car";
+"Cab" -> "Cat";
+"Car" -> "Bar";
+"Mat" -> "Bat";
+"Cat" -> "Mat";
+"Cat" -> "Bat";
+}

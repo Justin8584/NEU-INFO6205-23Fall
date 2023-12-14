@@ -1,0 +1,68 @@
+Testing Grow 0r Shrink Starts
+-------------PROBLEM 1 ---------------
+   0   1   2   3   4   5
+   2   7   4   1   8   1
+Shrink problem. Expected ans =  1
+-------------PROBLEM 2 ---------------
+   0   1   2   3   4   5
+   1   2   3   4   5   6
+Shrink problem. Expected ans =  1
+-------------PROBLEM 3 ---------------
+   0   1   2   3   4   5
+   6   5   4   3   2   1
+Shrink problem. Expected ans =  1
+-------------PROBLEM 4 ---------------
+   0   1   2   3   4   5
+ 600  10 687  78  47   1
+Shrink problem. Expected ans =  27
+-------------PROBLEM 5 ---------------
+   0
+   1
+Shrink problem. Expected ans =  1
+-------------PROBLEM 6 ---------------
+   0   1   2   3   4   5
+   1   1   1   1   1   1
+Shrink problem. Expected ans =  0
+-------------PROBLEM 7 ---------------
+   0   1   2   3   4
+   1   1   1   1   1
+Shrink problem. Expected ans =  1
+-------------PROBLEM 8 ---------------
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15
+ 100   210899999  37  78 167 190 4511024 586 628   1   2   07856
+Shrink problem. Expected ans =  18
+ALL TEST SHRINK PROBLEM PASSED
+-------------PROBLEM 9 ---------------
+   0   1   2   3   4   5
+   2   7   4   1   8   1
+Grow problem.   Expected ans =  9
+-------------PROBLEM 10 ---------------
+   0   1   2   3   4   5
+   1   2   3   4   5   6
+Grow problem.   Expected ans =  7
+-------------PROBLEM 11 ---------------
+   0   1   2   3   4   5
+   6   5   4   3   2   1
+Grow problem.   Expected ans =  7
+-------------PROBLEM 12 ---------------
+   0   1   2   3   4   5
+ 600  10 687  78  47   1
+Grow problem.   Expected ans =  688
+-------------PROBLEM 13 ---------------
+   0
+   1
+Grow problem.   Expected ans =  1
+-------------PROBLEM 14 ---------------
+   0   1   2   3   4   5
+   1   1   1   1   1   1
+Grow problem.   Expected ans =  4
+-------------PROBLEM 15 ---------------
+   0   1   2   3   4
+   1   1   1   1   1
+Grow problem.   Expected ans =  4
+-------------PROBLEM 16 ---------------
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15
+ 100   210899999  37  78 167 190 4511024 586 628   1   2   07856
+Grow problem.   Expected ans =  10000
+ALL TEST GROW PROBLEM PASSED
+Testing Grow 0r Shrink ENDS

@@ -1,0 +1,192 @@
+3.11.5 (main, Sep 11 2023, 08:19:27) [Clang 14.0.6 ]
+------------ 13 ------------ 
+UNDIRECTED GRAPH
+Num Vertices = 7
+Num Edges    = 12
+1 Fanouts: 2,3,4
+2 Fanouts: 1,5,4
+3 Fanouts: 1,6,4
+4 Fanouts: 1,2,3,5,7,6
+5 Fanouts: 2,4,7
+6 Fanouts: 3,7,4
+7 Fanouts: 4,5,6
+/Users/jiadingzhou/Desktop/info6205/HomeWorks/HW8/13.dot
+## Jiading Zhou ####
+digraph g {
+"1" [label="1"];
+"2" [label="2"];
+"3" [label="3"];
+"4" [label="4"];
+"5" [label="5"];
+"6" [label="6"];
+"7" [label="7"];
+"1" -- "2";
+"1" -- "3";
+"1" -- "4";
+"2" -- "5";
+"2" -- "4";
+"3" -- "6";
+"3" -- "4";
+"4" -- "5";
+"4" -- "7";
+"4" -- "6";
+"5" -- "7";
+"6" -- "7";
+}
+
+------------ 14 ------------ 
+WEIGHTED_UNDIRECTED GRAPH
+Num Vertices = 6
+Num Edges    = 10
+1 Fanouts: 2,3,4
+2 Fanouts: 1,3,5
+3 Fanouts: 1,2,4,5,6
+4 Fanouts: 1,3,6
+5 Fanouts: 2,3,6
+6 Fanouts: 3,4,5
+/Users/jiadingzhou/Desktop/info6205/HomeWorks/HW8/14.dot
+## Jiading Zhou ####
+digraph g {
+"1" [label="1"];
+"2" [label="2"];
+"3" [label="3"];
+"4" [label="4"];
+"5" [label="5"];
+"6" [label="6"];
+"1" -- "2" [label="6.2"];
+"1" -- "3" [label="1.2"];
+"1" -- "4" [label="5.0"];
+"2" -- "3" [label="5.2"];
+"2" -- "5" [label="3.2"];
+"3" -- "4" [label="5.0"];
+"3" -- "5" [label="4.0"];
+"3" -- "6" [label="4.0"];
+"4" -- "6" [label="2.0"];
+"5" -- "6" [label="6.0"];
+}
+
+------------ 15 ------------ 
+DIRECTED GRAPH
+Num Vertices = 6
+Num Edges    = 6
+A Fanouts: B
+A Fanins: NONE
+B Fanouts: C
+B Fanins: A,D
+E Fanouts: F,D
+E Fanins: C
+F Fanouts: NONE
+F Fanins: E
+D Fanouts: B
+D Fanins: E
+C Fanouts: E
+C Fanins: B
+/Users/jiadingzhou/Desktop/info6205/HomeWorks/HW8/15.dot
+## Jiading Zhou ####
+digraph g {
+"A" [label="A"];
+"B" [label="B"];
+"E" [label="E"];
+"F" [label="F"];
+"D" [label="D"];
+"C" [label="C"];
+"A" -> "B";
+"B" -> "C";
+"E" -> "F";
+"E" -> "D";
+"D" -> "B";
+"C" -> "E";
+}
+
+------------ 16 ------------ 
+WEIGHTED_DIRECTED GRAPH
+Num Vertices = 5
+Num Edges    = 6
+A Fanouts: C,D
+A Fanins: B,E
+C Fanouts: B,D
+C Fanins: A
+D Fanouts: NONE
+D Fanins: A,C
+B Fanouts: A
+B Fanins: C
+E Fanouts: A
+E Fanins: NONE
+/Users/jiadingzhou/Desktop/info6205/HomeWorks/HW8/16.dot
+## Jiading Zhou ####
+digraph g {
+"A" [label="A"];
+"C" [label="C"];
+"D" [label="D"];
+"B" [label="B"];
+"E" [label="E"];
+"A" -> "C" [label="12.8"];
+"A" -> "D" [label="60.0"];
+"C" -> "B" [label="20.0"];
+"C" -> "D" [label="32.9"];
+"B" -> "A" [label="10.0"];
+"E" -> "A" [label="7.0"];
+}
+
+NOT READ LINE 
+
+------------ cat ------------ 
+DIRECTED GRAPH
+Num Vertices = 6
+Num Edges    = 7
+Bar Fanouts: Bat
+Bar Fanins: Car
+Bat Fanouts: NONE
+Bat Fanins: Bar,Mat,Cat
+Cab Fanouts: Car,Cat
+Cab Fanins: NONE
+Car Fanouts: Bar
+Car Fanins: Cab
+Mat Fanouts: Bat
+Mat Fanins: Cat
+Cat Fanouts: Mat,Bat
+Cat Fanins: Cab
+/Users/jiadingzhou/Desktop/info6205/HomeWorks/HW8/cat.dot
+## Jiading Zhou ####
+digraph g {
+"Bar" [label="Bar"];
+"Bat" [label="Bat"];
+"Cab" [label="Cab"];
+"Car" [label="Car"];
+"Mat" [label="Mat"];
+"Cat" [label="Cat"];
+"Bar" -> "Bat";
+"Cab" -> "Car";
+"Cab" -> "Cat";
+"Car" -> "Bar";
+"Mat" -> "Bat";
+"Cat" -> "Mat";
+"Cat" -> "Bat";
+}
+
+------------ loopparallel ------------ 
+WEIGHTED_DIRECTED GRAPH
+Num Vertices = 4
+Num Edges    = 4
+s Fanouts: 0
+s Fanins: NONE
+0 Fanouts: 1
+0 Fanins: s
+1 Fanouts: 1,t
+1 Fanins: 0,1
+t Fanouts: NONE
+t Fanins: 1
+/Users/jiadingzhou/Desktop/info6205/HomeWorks/HW8/loopparallel.dot
+## Jiading Zhou ####
+digraph g {
+"s" [label="s"];
+"0" [label="0"];
+"1" [label="1"];
+"t" [label="t"];
+"s" -> "0" [label="1.0"];
+"0" -> "1" [label="5.0"];
+"1" -> "1" [label="3.0"];
+"1" -> "t" [label="1.0"];
+}
+
+test_graph_representation Passed

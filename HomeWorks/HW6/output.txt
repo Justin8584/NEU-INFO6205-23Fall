@@ -1,0 +1,779 @@
+Testing L0322Test Starts
+______________________Problem 1 ---------------------------------
+[0, 1, 2, 3, 4, 5, 6]
+[0, 1, 2, 1, 1, 2, 2]
+[0, 1, 1, 3, 4, 1, 3]
+minimum change for 0 cents can be achieved using 0 coins.
+minimum change for 1 cents can be achieved using 1 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 0
+minimum change for 2 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 1
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 0
+minimum change for 3 cents can be achieved using 1 coins.
+1 : Given Coin 3 . so far have given =  3 . Remaing to given 0
+minimum change for 4 cents can be achieved using 1 coins.
+1 : Given Coin 4 . so far have given =  4 . Remaing to given 0
+minimum change for 5 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 4
+2 : Given Coin 4 . so far have given =  5 . Remaing to given 0
+minimum change for 6 cents can be achieved using 2 coins.
+1 : Given Coin 3 . so far have given =  3 . Remaing to given 3
+2 : Given Coin 3 . so far have given =  6 . Remaing to given 0
+WORK =  13
+______________________Problem 2 ---------------------------------
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+[0, 1, 1, 2, 2, 3, 1, 2, 2, 3, 1, 2, 2, 3, 3, 4, 2, 3, 3, 4, 2, 3, 3, 4, 1, 2, 2, 3, 3, 4, 1, 2, 2, 3, 2, 3, 2, 3, 3, 4, 2, 3, 3, 4, 3, 4, 3, 4, 2, 3, 3, 4, 4, 5, 2, 3, 3, 4, 3, 4, 2, 3, 3, 4, 3, 4, 3, 4, 4, 5, 3, 4, 3, 4, 4, 5, 4, 5, 3, 4, 4, 5, 4, 5, 3, 4, 4, 5, 4, 5, 1, 2, 2, 3, 3, 4, 2, 3, 3, 4, 2]
+[0, 1, 2, 1, 2, 1, 6, 1, 2, 1, 10, 1, 2, 1, 2, 1, 6, 1, 2, 1, 10, 1, 2, 1, 24, 1, 2, 1, 2, 1, 30, 1, 2, 1, 10, 1, 6, 1, 2, 1, 10, 1, 2, 1, 10, 1, 6, 1, 24, 1, 2, 1, 2, 1, 24, 1, 2, 1, 10, 1, 30, 1, 2, 1, 10, 1, 6, 1, 2, 1, 10, 1, 24, 1, 2, 1, 6, 1, 24, 1, 2, 1, 10, 1, 24, 1, 2, 1, 10, 1, 90, 1, 2, 1, 2, 1, 6, 1, 2, 1, 10]
+minimum change for 0 cents can be achieved using 0 coins.
+minimum change for 1 cents can be achieved using 1 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 0
+minimum change for 2 cents can be achieved using 1 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 0
+minimum change for 3 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 2
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 0
+minimum change for 4 cents can be achieved using 2 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 2
+2 : Given Coin 2 . so far have given =  4 . Remaing to given 0
+minimum change for 5 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 4
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 2
+3 : Given Coin 2 . so far have given =  5 . Remaing to given 0
+minimum change for 6 cents can be achieved using 1 coins.
+1 : Given Coin 6 . so far have given =  6 . Remaing to given 0
+minimum change for 7 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 6
+2 : Given Coin 6 . so far have given =  7 . Remaing to given 0
+minimum change for 8 cents can be achieved using 2 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 6
+2 : Given Coin 6 . so far have given =  8 . Remaing to given 0
+minimum change for 9 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 8
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 6
+3 : Given Coin 6 . so far have given =  9 . Remaing to given 0
+minimum change for 10 cents can be achieved using 1 coins.
+1 : Given Coin 10 . so far have given =  10 . Remaing to given 0
+minimum change for 11 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 10
+2 : Given Coin 10 . so far have given =  11 . Remaing to given 0
+minimum change for 12 cents can be achieved using 2 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 10
+2 : Given Coin 10 . so far have given =  12 . Remaing to given 0
+minimum change for 13 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 12
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 10
+3 : Given Coin 10 . so far have given =  13 . Remaing to given 0
+minimum change for 14 cents can be achieved using 3 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 12
+2 : Given Coin 2 . so far have given =  4 . Remaing to given 10
+3 : Given Coin 10 . so far have given =  14 . Remaing to given 0
+minimum change for 15 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 14
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 12
+3 : Given Coin 2 . so far have given =  5 . Remaing to given 10
+4 : Given Coin 10 . so far have given =  15 . Remaing to given 0
+minimum change for 16 cents can be achieved using 2 coins.
+1 : Given Coin 6 . so far have given =  6 . Remaing to given 10
+2 : Given Coin 10 . so far have given =  16 . Remaing to given 0
+minimum change for 17 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 16
+2 : Given Coin 6 . so far have given =  7 . Remaing to given 10
+3 : Given Coin 10 . so far have given =  17 . Remaing to given 0
+minimum change for 18 cents can be achieved using 3 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 16
+2 : Given Coin 6 . so far have given =  8 . Remaing to given 10
+3 : Given Coin 10 . so far have given =  18 . Remaing to given 0
+minimum change for 19 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 18
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 16
+3 : Given Coin 6 . so far have given =  9 . Remaing to given 10
+4 : Given Coin 10 . so far have given =  19 . Remaing to given 0
+minimum change for 20 cents can be achieved using 2 coins.
+1 : Given Coin 10 . so far have given =  10 . Remaing to given 10
+2 : Given Coin 10 . so far have given =  20 . Remaing to given 0
+minimum change for 21 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 20
+2 : Given Coin 10 . so far have given =  11 . Remaing to given 10
+3 : Given Coin 10 . so far have given =  21 . Remaing to given 0
+minimum change for 22 cents can be achieved using 3 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 20
+2 : Given Coin 10 . so far have given =  12 . Remaing to given 10
+3 : Given Coin 10 . so far have given =  22 . Remaing to given 0
+minimum change for 23 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 22
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 20
+3 : Given Coin 10 . so far have given =  13 . Remaing to given 10
+4 : Given Coin 10 . so far have given =  23 . Remaing to given 0
+minimum change for 24 cents can be achieved using 1 coins.
+1 : Given Coin 24 . so far have given =  24 . Remaing to given 0
+minimum change for 25 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 24
+2 : Given Coin 24 . so far have given =  25 . Remaing to given 0
+minimum change for 26 cents can be achieved using 2 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 24
+2 : Given Coin 24 . so far have given =  26 . Remaing to given 0
+minimum change for 27 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 26
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 24
+3 : Given Coin 24 . so far have given =  27 . Remaing to given 0
+minimum change for 28 cents can be achieved using 3 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 26
+2 : Given Coin 2 . so far have given =  4 . Remaing to given 24
+3 : Given Coin 24 . so far have given =  28 . Remaing to given 0
+minimum change for 29 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 28
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 26
+3 : Given Coin 2 . so far have given =  5 . Remaing to given 24
+4 : Given Coin 24 . so far have given =  29 . Remaing to given 0
+minimum change for 30 cents can be achieved using 1 coins.
+1 : Given Coin 30 . so far have given =  30 . Remaing to given 0
+minimum change for 31 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 30
+2 : Given Coin 30 . so far have given =  31 . Remaing to given 0
+minimum change for 32 cents can be achieved using 2 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 30
+2 : Given Coin 30 . so far have given =  32 . Remaing to given 0
+minimum change for 33 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 32
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 30
+3 : Given Coin 30 . so far have given =  33 . Remaing to given 0
+minimum change for 34 cents can be achieved using 2 coins.
+1 : Given Coin 10 . so far have given =  10 . Remaing to given 24
+2 : Given Coin 24 . so far have given =  34 . Remaing to given 0
+minimum change for 35 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 34
+2 : Given Coin 10 . so far have given =  11 . Remaing to given 24
+3 : Given Coin 24 . so far have given =  35 . Remaing to given 0
+minimum change for 36 cents can be achieved using 2 coins.
+1 : Given Coin 6 . so far have given =  6 . Remaing to given 30
+2 : Given Coin 30 . so far have given =  36 . Remaing to given 0
+minimum change for 37 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 36
+2 : Given Coin 6 . so far have given =  7 . Remaing to given 30
+3 : Given Coin 30 . so far have given =  37 . Remaing to given 0
+minimum change for 38 cents can be achieved using 3 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 36
+2 : Given Coin 6 . so far have given =  8 . Remaing to given 30
+3 : Given Coin 30 . so far have given =  38 . Remaing to given 0
+minimum change for 39 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 38
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 36
+3 : Given Coin 6 . so far have given =  9 . Remaing to given 30
+4 : Given Coin 30 . so far have given =  39 . Remaing to given 0
+minimum change for 40 cents can be achieved using 2 coins.
+1 : Given Coin 10 . so far have given =  10 . Remaing to given 30
+2 : Given Coin 30 . so far have given =  40 . Remaing to given 0
+minimum change for 41 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 40
+2 : Given Coin 10 . so far have given =  11 . Remaing to given 30
+3 : Given Coin 30 . so far have given =  41 . Remaing to given 0
+minimum change for 42 cents can be achieved using 3 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 40
+2 : Given Coin 10 . so far have given =  12 . Remaing to given 30
+3 : Given Coin 30 . so far have given =  42 . Remaing to given 0
+minimum change for 43 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 42
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 40
+3 : Given Coin 10 . so far have given =  13 . Remaing to given 30
+4 : Given Coin 30 . so far have given =  43 . Remaing to given 0
+minimum change for 44 cents can be achieved using 3 coins.
+1 : Given Coin 10 . so far have given =  10 . Remaing to given 34
+2 : Given Coin 10 . so far have given =  20 . Remaing to given 24
+3 : Given Coin 24 . so far have given =  44 . Remaing to given 0
+minimum change for 45 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 44
+2 : Given Coin 10 . so far have given =  11 . Remaing to given 34
+3 : Given Coin 10 . so far have given =  21 . Remaing to given 24
+4 : Given Coin 24 . so far have given =  45 . Remaing to given 0
+minimum change for 46 cents can be achieved using 3 coins.
+1 : Given Coin 6 . so far have given =  6 . Remaing to given 40
+2 : Given Coin 10 . so far have given =  16 . Remaing to given 30
+3 : Given Coin 30 . so far have given =  46 . Remaing to given 0
+minimum change for 47 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 46
+2 : Given Coin 6 . so far have given =  7 . Remaing to given 40
+3 : Given Coin 10 . so far have given =  17 . Remaing to given 30
+4 : Given Coin 30 . so far have given =  47 . Remaing to given 0
+minimum change for 48 cents can be achieved using 2 coins.
+1 : Given Coin 24 . so far have given =  24 . Remaing to given 24
+2 : Given Coin 24 . so far have given =  48 . Remaing to given 0
+minimum change for 49 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 48
+2 : Given Coin 24 . so far have given =  25 . Remaing to given 24
+3 : Given Coin 24 . so far have given =  49 . Remaing to given 0
+minimum change for 50 cents can be achieved using 3 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 48
+2 : Given Coin 24 . so far have given =  26 . Remaing to given 24
+3 : Given Coin 24 . so far have given =  50 . Remaing to given 0
+minimum change for 51 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 50
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 48
+3 : Given Coin 24 . so far have given =  27 . Remaing to given 24
+4 : Given Coin 24 . so far have given =  51 . Remaing to given 0
+minimum change for 52 cents can be achieved using 4 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 50
+2 : Given Coin 2 . so far have given =  4 . Remaing to given 48
+3 : Given Coin 24 . so far have given =  28 . Remaing to given 24
+4 : Given Coin 24 . so far have given =  52 . Remaing to given 0
+minimum change for 53 cents can be achieved using 5 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 52
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 50
+3 : Given Coin 2 . so far have given =  5 . Remaing to given 48
+4 : Given Coin 24 . so far have given =  29 . Remaing to given 24
+5 : Given Coin 24 . so far have given =  53 . Remaing to given 0
+minimum change for 54 cents can be achieved using 2 coins.
+1 : Given Coin 24 . so far have given =  24 . Remaing to given 30
+2 : Given Coin 30 . so far have given =  54 . Remaing to given 0
+minimum change for 55 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 54
+2 : Given Coin 24 . so far have given =  25 . Remaing to given 30
+3 : Given Coin 30 . so far have given =  55 . Remaing to given 0
+minimum change for 56 cents can be achieved using 3 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 54
+2 : Given Coin 24 . so far have given =  26 . Remaing to given 30
+3 : Given Coin 30 . so far have given =  56 . Remaing to given 0
+minimum change for 57 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 56
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 54
+3 : Given Coin 24 . so far have given =  27 . Remaing to given 30
+4 : Given Coin 30 . so far have given =  57 . Remaing to given 0
+minimum change for 58 cents can be achieved using 3 coins.
+1 : Given Coin 10 . so far have given =  10 . Remaing to given 48
+2 : Given Coin 24 . so far have given =  34 . Remaing to given 24
+3 : Given Coin 24 . so far have given =  58 . Remaing to given 0
+minimum change for 59 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 58
+2 : Given Coin 10 . so far have given =  11 . Remaing to given 48
+3 : Given Coin 24 . so far have given =  35 . Remaing to given 24
+4 : Given Coin 24 . so far have given =  59 . Remaing to given 0
+minimum change for 60 cents can be achieved using 2 coins.
+1 : Given Coin 30 . so far have given =  30 . Remaing to given 30
+2 : Given Coin 30 . so far have given =  60 . Remaing to given 0
+minimum change for 61 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 60
+2 : Given Coin 30 . so far have given =  31 . Remaing to given 30
+3 : Given Coin 30 . so far have given =  61 . Remaing to given 0
+minimum change for 62 cents can be achieved using 3 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 60
+2 : Given Coin 30 . so far have given =  32 . Remaing to given 30
+3 : Given Coin 30 . so far have given =  62 . Remaing to given 0
+minimum change for 63 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 62
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 60
+3 : Given Coin 30 . so far have given =  33 . Remaing to given 30
+4 : Given Coin 30 . so far have given =  63 . Remaing to given 0
+minimum change for 64 cents can be achieved using 3 coins.
+1 : Given Coin 10 . so far have given =  10 . Remaing to given 54
+2 : Given Coin 24 . so far have given =  34 . Remaing to given 30
+3 : Given Coin 30 . so far have given =  64 . Remaing to given 0
+minimum change for 65 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 64
+2 : Given Coin 10 . so far have given =  11 . Remaing to given 54
+3 : Given Coin 24 . so far have given =  35 . Remaing to given 30
+4 : Given Coin 30 . so far have given =  65 . Remaing to given 0
+minimum change for 66 cents can be achieved using 3 coins.
+1 : Given Coin 6 . so far have given =  6 . Remaing to given 60
+2 : Given Coin 30 . so far have given =  36 . Remaing to given 30
+3 : Given Coin 30 . so far have given =  66 . Remaing to given 0
+minimum change for 67 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 66
+2 : Given Coin 6 . so far have given =  7 . Remaing to given 60
+3 : Given Coin 30 . so far have given =  37 . Remaing to given 30
+4 : Given Coin 30 . so far have given =  67 . Remaing to given 0
+minimum change for 68 cents can be achieved using 4 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 66
+2 : Given Coin 6 . so far have given =  8 . Remaing to given 60
+3 : Given Coin 30 . so far have given =  38 . Remaing to given 30
+4 : Given Coin 30 . so far have given =  68 . Remaing to given 0
+minimum change for 69 cents can be achieved using 5 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 68
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 66
+3 : Given Coin 6 . so far have given =  9 . Remaing to given 60
+4 : Given Coin 30 . so far have given =  39 . Remaing to given 30
+5 : Given Coin 30 . so far have given =  69 . Remaing to given 0
+minimum change for 70 cents can be achieved using 3 coins.
+1 : Given Coin 10 . so far have given =  10 . Remaing to given 60
+2 : Given Coin 30 . so far have given =  40 . Remaing to given 30
+3 : Given Coin 30 . so far have given =  70 . Remaing to given 0
+minimum change for 71 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 70
+2 : Given Coin 10 . so far have given =  11 . Remaing to given 60
+3 : Given Coin 30 . so far have given =  41 . Remaing to given 30
+4 : Given Coin 30 . so far have given =  71 . Remaing to given 0
+minimum change for 72 cents can be achieved using 3 coins.
+1 : Given Coin 24 . so far have given =  24 . Remaing to given 48
+2 : Given Coin 24 . so far have given =  48 . Remaing to given 24
+3 : Given Coin 24 . so far have given =  72 . Remaing to given 0
+minimum change for 73 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 72
+2 : Given Coin 24 . so far have given =  25 . Remaing to given 48
+3 : Given Coin 24 . so far have given =  49 . Remaing to given 24
+4 : Given Coin 24 . so far have given =  73 . Remaing to given 0
+minimum change for 74 cents can be achieved using 4 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 72
+2 : Given Coin 24 . so far have given =  26 . Remaing to given 48
+3 : Given Coin 24 . so far have given =  50 . Remaing to given 24
+4 : Given Coin 24 . so far have given =  74 . Remaing to given 0
+minimum change for 75 cents can be achieved using 5 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 74
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 72
+3 : Given Coin 24 . so far have given =  27 . Remaing to given 48
+4 : Given Coin 24 . so far have given =  51 . Remaing to given 24
+5 : Given Coin 24 . so far have given =  75 . Remaing to given 0
+minimum change for 76 cents can be achieved using 4 coins.
+1 : Given Coin 6 . so far have given =  6 . Remaing to given 70
+2 : Given Coin 10 . so far have given =  16 . Remaing to given 60
+3 : Given Coin 30 . so far have given =  46 . Remaing to given 30
+4 : Given Coin 30 . so far have given =  76 . Remaing to given 0
+minimum change for 77 cents can be achieved using 5 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 76
+2 : Given Coin 6 . so far have given =  7 . Remaing to given 70
+3 : Given Coin 10 . so far have given =  17 . Remaing to given 60
+4 : Given Coin 30 . so far have given =  47 . Remaing to given 30
+5 : Given Coin 30 . so far have given =  77 . Remaing to given 0
+minimum change for 78 cents can be achieved using 3 coins.
+1 : Given Coin 24 . so far have given =  24 . Remaing to given 54
+2 : Given Coin 24 . so far have given =  48 . Remaing to given 30
+3 : Given Coin 30 . so far have given =  78 . Remaing to given 0
+minimum change for 79 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 78
+2 : Given Coin 24 . so far have given =  25 . Remaing to given 54
+3 : Given Coin 24 . so far have given =  49 . Remaing to given 30
+4 : Given Coin 30 . so far have given =  79 . Remaing to given 0
+minimum change for 80 cents can be achieved using 4 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 78
+2 : Given Coin 24 . so far have given =  26 . Remaing to given 54
+3 : Given Coin 24 . so far have given =  50 . Remaing to given 30
+4 : Given Coin 30 . so far have given =  80 . Remaing to given 0
+minimum change for 81 cents can be achieved using 5 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 80
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 78
+3 : Given Coin 24 . so far have given =  27 . Remaing to given 54
+4 : Given Coin 24 . so far have given =  51 . Remaing to given 30
+5 : Given Coin 30 . so far have given =  81 . Remaing to given 0
+minimum change for 82 cents can be achieved using 4 coins.
+1 : Given Coin 10 . so far have given =  10 . Remaing to given 72
+2 : Given Coin 24 . so far have given =  34 . Remaing to given 48
+3 : Given Coin 24 . so far have given =  58 . Remaing to given 24
+4 : Given Coin 24 . so far have given =  82 . Remaing to given 0
+minimum change for 83 cents can be achieved using 5 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 82
+2 : Given Coin 10 . so far have given =  11 . Remaing to given 72
+3 : Given Coin 24 . so far have given =  35 . Remaing to given 48
+4 : Given Coin 24 . so far have given =  59 . Remaing to given 24
+5 : Given Coin 24 . so far have given =  83 . Remaing to given 0
+minimum change for 84 cents can be achieved using 3 coins.
+1 : Given Coin 24 . so far have given =  24 . Remaing to given 60
+2 : Given Coin 30 . so far have given =  54 . Remaing to given 30
+3 : Given Coin 30 . so far have given =  84 . Remaing to given 0
+minimum change for 85 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 84
+2 : Given Coin 24 . so far have given =  25 . Remaing to given 60
+3 : Given Coin 30 . so far have given =  55 . Remaing to given 30
+4 : Given Coin 30 . so far have given =  85 . Remaing to given 0
+minimum change for 86 cents can be achieved using 4 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 84
+2 : Given Coin 24 . so far have given =  26 . Remaing to given 60
+3 : Given Coin 30 . so far have given =  56 . Remaing to given 30
+4 : Given Coin 30 . so far have given =  86 . Remaing to given 0
+minimum change for 87 cents can be achieved using 5 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 86
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 84
+3 : Given Coin 24 . so far have given =  27 . Remaing to given 60
+4 : Given Coin 30 . so far have given =  57 . Remaing to given 30
+5 : Given Coin 30 . so far have given =  87 . Remaing to given 0
+minimum change for 88 cents can be achieved using 4 coins.
+1 : Given Coin 10 . so far have given =  10 . Remaing to given 78
+2 : Given Coin 24 . so far have given =  34 . Remaing to given 54
+3 : Given Coin 24 . so far have given =  58 . Remaing to given 30
+4 : Given Coin 30 . so far have given =  88 . Remaing to given 0
+minimum change for 89 cents can be achieved using 5 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 88
+2 : Given Coin 10 . so far have given =  11 . Remaing to given 78
+3 : Given Coin 24 . so far have given =  35 . Remaing to given 54
+4 : Given Coin 24 . so far have given =  59 . Remaing to given 30
+5 : Given Coin 30 . so far have given =  89 . Remaing to given 0
+minimum change for 90 cents can be achieved using 1 coins.
+1 : Given Coin 90 . so far have given =  90 . Remaing to given 0
+minimum change for 91 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 90
+2 : Given Coin 90 . so far have given =  91 . Remaing to given 0
+minimum change for 92 cents can be achieved using 2 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 90
+2 : Given Coin 90 . so far have given =  92 . Remaing to given 0
+minimum change for 93 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 92
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 90
+3 : Given Coin 90 . so far have given =  93 . Remaing to given 0
+minimum change for 94 cents can be achieved using 3 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 92
+2 : Given Coin 2 . so far have given =  4 . Remaing to given 90
+3 : Given Coin 90 . so far have given =  94 . Remaing to given 0
+minimum change for 95 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 94
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 92
+3 : Given Coin 2 . so far have given =  5 . Remaing to given 90
+4 : Given Coin 90 . so far have given =  95 . Remaing to given 0
+minimum change for 96 cents can be achieved using 2 coins.
+1 : Given Coin 6 . so far have given =  6 . Remaing to given 90
+2 : Given Coin 90 . so far have given =  96 . Remaing to given 0
+minimum change for 97 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 96
+2 : Given Coin 6 . so far have given =  7 . Remaing to given 90
+3 : Given Coin 90 . so far have given =  97 . Remaing to given 0
+minimum change for 98 cents can be achieved using 3 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 96
+2 : Given Coin 6 . so far have given =  8 . Remaing to given 90
+3 : Given Coin 90 . so far have given =  98 . Remaing to given 0
+minimum change for 99 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 98
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 96
+3 : Given Coin 6 . so far have given =  9 . Remaing to given 90
+4 : Given Coin 90 . so far have given =  99 . Remaing to given 0
+minimum change for 100 cents can be achieved using 2 coins.
+1 : Given Coin 10 . so far have given =  10 . Remaing to given 90
+2 : Given Coin 90 . so far have given =  100 . Remaing to given 0
+WORK =  544
+______________________Problem 3 ---------------------------------
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34]
+[0, 1, 1, 2, 2, 3, 1, 2, 2, 3, 1, 2, 2, 3, 3, 4, 2, 3, 3, 4, 2, 3, 3, 4, 1, 2, 2, 3, 3, 4, 1, 2, 2, 3, 2]
+[0, 1, 2, 1, 2, 1, 6, 1, 2, 1, 10, 1, 2, 1, 2, 1, 6, 1, 2, 1, 10, 1, 2, 1, 24, 1, 2, 1, 2, 1, 30, 1, 2, 1, 10]
+minimum change for 0 cents can be achieved using 0 coins.
+minimum change for 1 cents can be achieved using 1 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 0
+minimum change for 2 cents can be achieved using 1 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 0
+minimum change for 3 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 2
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 0
+minimum change for 4 cents can be achieved using 2 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 2
+2 : Given Coin 2 . so far have given =  4 . Remaing to given 0
+minimum change for 5 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 4
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 2
+3 : Given Coin 2 . so far have given =  5 . Remaing to given 0
+minimum change for 6 cents can be achieved using 1 coins.
+1 : Given Coin 6 . so far have given =  6 . Remaing to given 0
+minimum change for 7 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 6
+2 : Given Coin 6 . so far have given =  7 . Remaing to given 0
+minimum change for 8 cents can be achieved using 2 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 6
+2 : Given Coin 6 . so far have given =  8 . Remaing to given 0
+minimum change for 9 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 8
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 6
+3 : Given Coin 6 . so far have given =  9 . Remaing to given 0
+minimum change for 10 cents can be achieved using 1 coins.
+1 : Given Coin 10 . so far have given =  10 . Remaing to given 0
+minimum change for 11 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 10
+2 : Given Coin 10 . so far have given =  11 . Remaing to given 0
+minimum change for 12 cents can be achieved using 2 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 10
+2 : Given Coin 10 . so far have given =  12 . Remaing to given 0
+minimum change for 13 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 12
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 10
+3 : Given Coin 10 . so far have given =  13 . Remaing to given 0
+minimum change for 14 cents can be achieved using 3 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 12
+2 : Given Coin 2 . so far have given =  4 . Remaing to given 10
+3 : Given Coin 10 . so far have given =  14 . Remaing to given 0
+minimum change for 15 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 14
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 12
+3 : Given Coin 2 . so far have given =  5 . Remaing to given 10
+4 : Given Coin 10 . so far have given =  15 . Remaing to given 0
+minimum change for 16 cents can be achieved using 2 coins.
+1 : Given Coin 6 . so far have given =  6 . Remaing to given 10
+2 : Given Coin 10 . so far have given =  16 . Remaing to given 0
+minimum change for 17 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 16
+2 : Given Coin 6 . so far have given =  7 . Remaing to given 10
+3 : Given Coin 10 . so far have given =  17 . Remaing to given 0
+minimum change for 18 cents can be achieved using 3 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 16
+2 : Given Coin 6 . so far have given =  8 . Remaing to given 10
+3 : Given Coin 10 . so far have given =  18 . Remaing to given 0
+minimum change for 19 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 18
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 16
+3 : Given Coin 6 . so far have given =  9 . Remaing to given 10
+4 : Given Coin 10 . so far have given =  19 . Remaing to given 0
+minimum change for 20 cents can be achieved using 2 coins.
+1 : Given Coin 10 . so far have given =  10 . Remaing to given 10
+2 : Given Coin 10 . so far have given =  20 . Remaing to given 0
+minimum change for 21 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 20
+2 : Given Coin 10 . so far have given =  11 . Remaing to given 10
+3 : Given Coin 10 . so far have given =  21 . Remaing to given 0
+minimum change for 22 cents can be achieved using 3 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 20
+2 : Given Coin 10 . so far have given =  12 . Remaing to given 10
+3 : Given Coin 10 . so far have given =  22 . Remaing to given 0
+minimum change for 23 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 22
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 20
+3 : Given Coin 10 . so far have given =  13 . Remaing to given 10
+4 : Given Coin 10 . so far have given =  23 . Remaing to given 0
+minimum change for 24 cents can be achieved using 1 coins.
+1 : Given Coin 24 . so far have given =  24 . Remaing to given 0
+minimum change for 25 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 24
+2 : Given Coin 24 . so far have given =  25 . Remaing to given 0
+minimum change for 26 cents can be achieved using 2 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 24
+2 : Given Coin 24 . so far have given =  26 . Remaing to given 0
+minimum change for 27 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 26
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 24
+3 : Given Coin 24 . so far have given =  27 . Remaing to given 0
+minimum change for 28 cents can be achieved using 3 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 26
+2 : Given Coin 2 . so far have given =  4 . Remaing to given 24
+3 : Given Coin 24 . so far have given =  28 . Remaing to given 0
+minimum change for 29 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 28
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 26
+3 : Given Coin 2 . so far have given =  5 . Remaing to given 24
+4 : Given Coin 24 . so far have given =  29 . Remaing to given 0
+minimum change for 30 cents can be achieved using 1 coins.
+1 : Given Coin 30 . so far have given =  30 . Remaing to given 0
+minimum change for 31 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 30
+2 : Given Coin 30 . so far have given =  31 . Remaing to given 0
+minimum change for 32 cents can be achieved using 2 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 30
+2 : Given Coin 30 . so far have given =  32 . Remaing to given 0
+minimum change for 33 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 32
+2 : Given Coin 2 . so far have given =  3 . Remaing to given 30
+3 : Given Coin 30 . so far have given =  33 . Remaing to given 0
+minimum change for 34 cents can be achieved using 2 coins.
+1 : Given Coin 10 . so far have given =  10 . Remaing to given 24
+2 : Given Coin 24 . so far have given =  34 . Remaing to given 0
+WORK =  137
+______________________Problem 4 ---------------------------------
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+[0, 1, 2, 3, 4, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 2, 3, 4, 5, 6, 2, 3, 4, 5, 6, 1]
+[0, 1, 1, 1, 1, 5, 1, 1, 1, 1, 10, 1, 1, 1, 1, 5, 1, 1, 1, 1, 10, 1, 1, 1, 1, 25]
+minimum change for 0 cents can be achieved using 0 coins.
+minimum change for 1 cents can be achieved using 1 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 0
+minimum change for 2 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 1
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 0
+minimum change for 3 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 2
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 1
+3 : Given Coin 1 . so far have given =  3 . Remaing to given 0
+minimum change for 4 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 3
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 2
+3 : Given Coin 1 . so far have given =  3 . Remaing to given 1
+4 : Given Coin 1 . so far have given =  4 . Remaing to given 0
+minimum change for 5 cents can be achieved using 1 coins.
+1 : Given Coin 5 . so far have given =  5 . Remaing to given 0
+minimum change for 6 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 5
+2 : Given Coin 5 . so far have given =  6 . Remaing to given 0
+minimum change for 7 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 6
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 5
+3 : Given Coin 5 . so far have given =  7 . Remaing to given 0
+minimum change for 8 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 7
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 6
+3 : Given Coin 1 . so far have given =  3 . Remaing to given 5
+4 : Given Coin 5 . so far have given =  8 . Remaing to given 0
+minimum change for 9 cents can be achieved using 5 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 8
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 7
+3 : Given Coin 1 . so far have given =  3 . Remaing to given 6
+4 : Given Coin 1 . so far have given =  4 . Remaing to given 5
+5 : Given Coin 5 . so far have given =  9 . Remaing to given 0
+minimum change for 10 cents can be achieved using 1 coins.
+1 : Given Coin 10 . so far have given =  10 . Remaing to given 0
+minimum change for 11 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 10
+2 : Given Coin 10 . so far have given =  11 . Remaing to given 0
+minimum change for 12 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 11
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 10
+3 : Given Coin 10 . so far have given =  12 . Remaing to given 0
+minimum change for 13 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 12
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 11
+3 : Given Coin 1 . so far have given =  3 . Remaing to given 10
+4 : Given Coin 10 . so far have given =  13 . Remaing to given 0
+minimum change for 14 cents can be achieved using 5 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 13
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 12
+3 : Given Coin 1 . so far have given =  3 . Remaing to given 11
+4 : Given Coin 1 . so far have given =  4 . Remaing to given 10
+5 : Given Coin 10 . so far have given =  14 . Remaing to given 0
+minimum change for 15 cents can be achieved using 2 coins.
+1 : Given Coin 5 . so far have given =  5 . Remaing to given 10
+2 : Given Coin 10 . so far have given =  15 . Remaing to given 0
+minimum change for 16 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 15
+2 : Given Coin 5 . so far have given =  6 . Remaing to given 10
+3 : Given Coin 10 . so far have given =  16 . Remaing to given 0
+minimum change for 17 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 16
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 15
+3 : Given Coin 5 . so far have given =  7 . Remaing to given 10
+4 : Given Coin 10 . so far have given =  17 . Remaing to given 0
+minimum change for 18 cents can be achieved using 5 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 17
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 16
+3 : Given Coin 1 . so far have given =  3 . Remaing to given 15
+4 : Given Coin 5 . so far have given =  8 . Remaing to given 10
+5 : Given Coin 10 . so far have given =  18 . Remaing to given 0
+minimum change for 19 cents can be achieved using 6 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 18
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 17
+3 : Given Coin 1 . so far have given =  3 . Remaing to given 16
+4 : Given Coin 1 . so far have given =  4 . Remaing to given 15
+5 : Given Coin 5 . so far have given =  9 . Remaing to given 10
+6 : Given Coin 10 . so far have given =  19 . Remaing to given 0
+minimum change for 20 cents can be achieved using 2 coins.
+1 : Given Coin 10 . so far have given =  10 . Remaing to given 10
+2 : Given Coin 10 . so far have given =  20 . Remaing to given 0
+minimum change for 21 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 20
+2 : Given Coin 10 . so far have given =  11 . Remaing to given 10
+3 : Given Coin 10 . so far have given =  21 . Remaing to given 0
+minimum change for 22 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 21
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 20
+3 : Given Coin 10 . so far have given =  12 . Remaing to given 10
+4 : Given Coin 10 . so far have given =  22 . Remaing to given 0
+minimum change for 23 cents can be achieved using 5 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 22
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 21
+3 : Given Coin 1 . so far have given =  3 . Remaing to given 20
+4 : Given Coin 10 . so far have given =  13 . Remaing to given 10
+5 : Given Coin 10 . so far have given =  23 . Remaing to given 0
+minimum change for 24 cents can be achieved using 6 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 23
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 22
+3 : Given Coin 1 . so far have given =  3 . Remaing to given 21
+4 : Given Coin 1 . so far have given =  4 . Remaing to given 20
+5 : Given Coin 10 . so far have given =  14 . Remaing to given 10
+6 : Given Coin 10 . so far have given =  24 . Remaing to given 0
+minimum change for 25 cents can be achieved using 1 coins.
+1 : Given Coin 25 . so far have given =  25 . Remaing to given 0
+WORK =  63
+______________________Problem 5 ---------------------------------
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+[0, 1, 2, 3, 4, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 2, 3]
+[0, 1, 1, 1, 1, 5, 1, 1, 1, 1, 10, 1, 1, 1, 1, 5, 1]
+minimum change for 0 cents can be achieved using 0 coins.
+minimum change for 1 cents can be achieved using 1 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 0
+minimum change for 2 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 1
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 0
+minimum change for 3 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 2
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 1
+3 : Given Coin 1 . so far have given =  3 . Remaing to given 0
+minimum change for 4 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 3
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 2
+3 : Given Coin 1 . so far have given =  3 . Remaing to given 1
+4 : Given Coin 1 . so far have given =  4 . Remaing to given 0
+minimum change for 5 cents can be achieved using 1 coins.
+1 : Given Coin 5 . so far have given =  5 . Remaing to given 0
+minimum change for 6 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 5
+2 : Given Coin 5 . so far have given =  6 . Remaing to given 0
+minimum change for 7 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 6
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 5
+3 : Given Coin 5 . so far have given =  7 . Remaing to given 0
+minimum change for 8 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 7
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 6
+3 : Given Coin 1 . so far have given =  3 . Remaing to given 5
+4 : Given Coin 5 . so far have given =  8 . Remaing to given 0
+minimum change for 9 cents can be achieved using 5 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 8
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 7
+3 : Given Coin 1 . so far have given =  3 . Remaing to given 6
+4 : Given Coin 1 . so far have given =  4 . Remaing to given 5
+5 : Given Coin 5 . so far have given =  9 . Remaing to given 0
+minimum change for 10 cents can be achieved using 1 coins.
+1 : Given Coin 10 . so far have given =  10 . Remaing to given 0
+minimum change for 11 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 10
+2 : Given Coin 10 . so far have given =  11 . Remaing to given 0
+minimum change for 12 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 11
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 10
+3 : Given Coin 10 . so far have given =  12 . Remaing to given 0
+minimum change for 13 cents can be achieved using 4 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 12
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 11
+3 : Given Coin 1 . so far have given =  3 . Remaing to given 10
+4 : Given Coin 10 . so far have given =  13 . Remaing to given 0
+minimum change for 14 cents can be achieved using 5 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 13
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 12
+3 : Given Coin 1 . so far have given =  3 . Remaing to given 11
+4 : Given Coin 1 . so far have given =  4 . Remaing to given 10
+5 : Given Coin 10 . so far have given =  14 . Remaing to given 0
+minimum change for 15 cents can be achieved using 2 coins.
+1 : Given Coin 5 . so far have given =  5 . Remaing to given 10
+2 : Given Coin 10 . so far have given =  15 . Remaing to given 0
+minimum change for 16 cents can be achieved using 3 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 15
+2 : Given Coin 5 . so far have given =  6 . Remaing to given 10
+3 : Given Coin 10 . so far have given =  16 . Remaing to given 0
+WORK =  35
+______________________Problem 6 ---------------------------------
+[0]
+[0]
+[0]
+minimum change for 0 cents can be achieved using 0 coins.
+______________________Problem 7 ---------------------------------
+[0, 1]
+[0, 1]
+[0, 1]
+minimum change for 0 cents can be achieved using 0 coins.
+minimum change for 1 cents can be achieved using 1 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 0
+WORK =  1
+______________________Problem 8 ---------------------------------
+[0, 1, 2]
+[0, 1, 2]
+[0, 1, 1]
+minimum change for 0 cents can be achieved using 0 coins.
+minimum change for 1 cents can be achieved using 1 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 0
+minimum change for 2 cents can be achieved using 2 coins.
+1 : Given Coin 1 . so far have given =  1 . Remaing to given 1
+2 : Given Coin 1 . so far have given =  2 . Remaing to given 0
+WORK =  2
+______________________Problem 9 ---------------------------------
+[0, 1, 2, 3]
+[0, -1, 1, -1]
+[0, -1, 2, -1]
+minimum change for 0 cents can be achieved using 0 coins.
+minimum change for 1 cents can be achieved using -1 coins.
+Change cannot given for 1 cents.
+minimum change for 2 cents can be achieved using 1 coins.
+1 : Given Coin 2 . so far have given =  2 . Remaing to given 0
+minimum change for 3 cents can be achieved using -1 coins.
+Change cannot given for 3 cents.
+WORK =  2
+______________________Problem 10 ---------------------------------
+Expected minimal change is 20 . your answer is 20
+WORK =  23904
+______________________Problem 11 ---------------------------------
+Expected minimal change is 8 . your answer is 8
+WORK =  444
+Testing L0322Test ENDS

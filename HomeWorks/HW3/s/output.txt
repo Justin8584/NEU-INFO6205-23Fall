@@ -1,0 +1,64 @@
+Testing Prime.py Starts
+------------- 100 -------------------------
+--------------- n*SquareRoot(n)  Method-----------------------
+100  has  25  Prime. Took 187  steps to compute
+Total CPU time in sec = 9.899999999996023e-05
+--------------- uptoprime  Method-----------------------
+100  has  25  Prime. Took 205  steps to compute
+Total CPU time in sec = 0.000132000000000021
+--------------- n*log(n)  Method-----------------------
+100  has  25  Prime. Took 55  steps to compute
+Total CPU time in sec = 7.900000000005125e-05
+------------- 1000 -------------------------
+--------------- n*SquareRoot(n)  Method-----------------------
+1000  has  168  Prime. Took 4789  steps to compute
+Total CPU time in sec = 0.0007380000000000164
+--------------- uptoprime  Method-----------------------
+1000  has  168  Prime. Took 2968  steps to compute
+Total CPU time in sec = 0.0005209999999999937
+--------------- n*log(n)  Method-----------------------
+1000  has  168  Prime. Took 912  steps to compute
+Total CPU time in sec = 0.00017999999999995797
+------------- 10000 -------------------------
+--------------- n*SquareRoot(n)  Method-----------------------
+10000  has  1229  Prime. Took 112528  steps to compute
+Total CPU time in sec = 0.016423999999999994
+--------------- uptoprime  Method-----------------------
+10000  has  1229  Prime. Took 44981  steps to compute
+Total CPU time in sec = 0.008033000000000068
+--------------- n*log(n)  Method-----------------------
+10000  has  1229  Prime. Took 11982  steps to compute
+Total CPU time in sec = 0.0020599999999999508
+------------- 100000 -------------------------
+--------------- n*SquareRoot(n)  Method-----------------------
+100000  has  9592  Prime. Took 2695695  steps to compute
+Total CPU time in sec = 0.335595
+--------------- uptoprime  Method-----------------------
+100000  has  9592  Prime. Took 754027  steps to compute
+Total CPU time in sec = 0.1192629999999999
+--------------- n*log(n)  Method-----------------------
+100000  has  9592  Prime. Took 143079  steps to compute
+Total CPU time in sec = 0.022345999999999977
+------------- 1000000  cannot compute using n^2 method -------------
+--------------- uptoprime  Method-----------------------
+1000000  has  78498  Prime. Took 14005899  steps to compute
+Total CPU time in sec = 2.19395
+--------------- n*log(n)  Method-----------------------
+1000000  has  78498  Prime. Took 1622049  steps to compute
+Total CPU time in sec = 0.24739000000000022
+------------- 10000000  cannot compute using n^2 method -------------
+--------------- uptoprime  Method-----------------------
+10000000  has  664579  Prime. Took 286809516  steps to compute
+Total CPU time in sec = 44.836727
+--------------- n*log(n)  Method-----------------------
+10000000  has  664579  Prime. Took 17850052  steps to compute
+Total CPU time in sec = 3.7359030000000004
+------------- 100000000  cannot compute using n^2 method -------------
+--------------- uptoprime  Method-----------------------
+100000000  has  5761455  Prime. Took 6326689924  steps to compute
+Total CPU time in sec = 988.095715
+--------------- n*log(n)  Method-----------------------
+100000000  has  5761455  Prime. Took 192570205  steps to compute
+Total CPU time in sec = 42.00083600000016
+ALL TESTS PASSED
+Testing Prime.py ENDS

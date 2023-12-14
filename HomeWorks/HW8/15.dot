@@ -1,0 +1,15 @@
+## Jiading Zhou ####
+digraph g {
+"A" [label="A"];
+"B" [label="B"];
+"E" [label="E"];
+"F" [label="F"];
+"D" [label="D"];
+"C" [label="C"];
+"A" -> "B";
+"B" -> "C";
+"E" -> "F";
+"E" -> "D";
+"D" -> "B";
+"C" -> "E";
+}
